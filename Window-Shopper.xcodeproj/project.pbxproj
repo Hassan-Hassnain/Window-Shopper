@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3C52E9AE23A53E4B00F6FFE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52E9AD23A53E4B00F6FFE4 /* AppDelegate.swift */; };
 		3C52E9B023A53E4B00F6FFE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52E9AF23A53E4B00F6FFE4 /* SceneDelegate.swift */; };
-		3C52E9B223A53E4B00F6FFE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52E9B123A53E4B00F6FFE4 /* ViewController.swift */; };
+		3C52E9B223A53E4B00F6FFE4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52E9B123A53E4B00F6FFE4 /* MainVC.swift */; };
 		3C52E9B523A53E4B00F6FFE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C52E9B323A53E4B00F6FFE4 /* Main.storyboard */; };
 		3C52E9B723A53E5200F6FFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C52E9B623A53E5200F6FFE4 /* Assets.xcassets */; };
 		3C52E9BA23A53E5200F6FFE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C52E9B823A53E5200F6FFE4 /* LaunchScreen.storyboard */; };
+		3C52E9C323A5411300F6FFE4 /* CurrencyTextFied.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52E9C223A5411300F6FFE4 /* CurrencyTextFied.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C52E9AA23A53E4B00F6FFE4 /* Window-Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Window-Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C52E9AD23A53E4B00F6FFE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C52E9AF23A53E4B00F6FFE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C52E9B123A53E4B00F6FFE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C52E9B123A53E4B00F6FFE4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3C52E9B423A53E4B00F6FFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C52E9B623A53E5200F6FFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C52E9B923A53E5200F6FFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C52E9BB23A53E5200F6FFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C52E9C223A5411300F6FFE4 /* CurrencyTextFied.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextFied.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				3C52E9AD23A53E4B00F6FFE4 /* AppDelegate.swift */,
 				3C52E9AF23A53E4B00F6FFE4 /* SceneDelegate.swift */,
-				3C52E9B123A53E4B00F6FFE4 /* ViewController.swift */,
+				3C52E9C123A540B000F6FFE4 /* Views */,
+				3C52E9B123A53E4B00F6FFE4 /* MainVC.swift */,
 				3C52E9B323A53E4B00F6FFE4 /* Main.storyboard */,
 				3C52E9B623A53E5200F6FFE4 /* Assets.xcassets */,
 				3C52E9B823A53E5200F6FFE4 /* LaunchScreen.storyboard */,
 				3C52E9BB23A53E5200F6FFE4 /* Info.plist */,
 			);
 			path = "Window-Shopper";
+			sourceTree = "<group>";
+		};
+		3C52E9C123A540B000F6FFE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C52E9C223A5411300F6FFE4 /* CurrencyTextFied.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C52E9B223A53E4B00F6FFE4 /* ViewController.swift in Sources */,
+				3C52E9B223A53E4B00F6FFE4 /* MainVC.swift in Sources */,
+				3C52E9C323A5411300F6FFE4 /* CurrencyTextFied.swift in Sources */,
 				3C52E9AE23A53E4B00F6FFE4 /* AppDelegate.swift in Sources */,
 				3C52E9B023A53E4B00F6FFE4 /* SceneDelegate.swift in Sources */,
 			);
