@@ -8,12 +8,22 @@
 
 import UIKit
 
+@IBDesignable
 class CurrencyTextFied: UITextField {
 
+    override func prepareForInterfaceBuilder() {
+         customizeView()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        customizeView()
+    }
+    
+    func customizeView(){
         backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.2984803082)
-        layer.cornerRadius = 5.0
+        layer.cornerRadius = 10.0
         textAlignment = .center
 
         if let ph = placeholder
@@ -22,7 +32,6 @@ class CurrencyTextFied: UITextField {
             attributedPlaceholder = place
             textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         }
-        
     }
 
 }
